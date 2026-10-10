@@ -1,6 +1,7 @@
 module com.apaza.chitibrowser {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.web;
 
 
     opens com.apaza.chitibrowser to javafx.fxml;
